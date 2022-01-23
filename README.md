@@ -4,11 +4,7 @@ Cucumber Google Search using Selenium and Rest Assured
 [![LinkedIn](linkedin-shield)](https://www.linkedin.com/in/ibrahim-nasr-001b60202/)
 
 ## How to run project:
-- Go to data.properties then enter your api_key and cookie 
-|-- src
-|   |-- main / java
-|   |   |-- resources
-|   |   |   |-- data.properties
+- Go to ( src/main/java/resources) and open data.properties then enter your api_key and cookie 
 - Run testngCucumber.xml file
 
 ## Feature File  
