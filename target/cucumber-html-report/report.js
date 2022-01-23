@@ -116,7 +116,7 @@ formatter.match({
   "location": "SearchEngine.that_i_have_gone_to_something_page_with_chrome_browser(String)"
 });
 formatter.result({
-  "duration": 11445131000,
+  "duration": 8283452600,
   "status": "passed"
 });
 formatter.match({
@@ -129,7 +129,7 @@ formatter.match({
   "location": "SearchEngine.i_fill_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 266786300,
+  "duration": 188357600,
   "status": "passed"
 });
 formatter.match({
@@ -142,7 +142,7 @@ formatter.match({
   "location": "SearchEngine.click_on_suggest_word(String)"
 });
 formatter.result({
-  "duration": 7267331900,
+  "duration": 5862019900,
   "status": "passed"
 });
 formatter.match({
@@ -155,14 +155,14 @@ formatter.match({
   "location": "SearchEngine.the_should_be_mentioned_in_the_results(String)"
 });
 formatter.result({
-  "duration": 7874333100,
+  "duration": 5913638100,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchEngine.close_browsers()"
 });
 formatter.result({
-  "duration": 2027606900,
+  "duration": 1537608300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -270,7 +270,7 @@ formatter.match({
   "location": "SearchEngine.that_i_have_gone_to_something_page_with_chrome_browser(String)"
 });
 formatter.result({
-  "duration": 8067935300,
+  "duration": 7245095400,
   "status": "passed"
 });
 formatter.match({
@@ -283,14 +283,14 @@ formatter.match({
   "location": "SearchEngine.i_fill_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 182439600,
+  "duration": 158308400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchEngine.click_the_Search_Button()"
 });
 formatter.result({
-  "duration": 5795297300,
+  "duration": 3717601500,
   "status": "passed"
 });
 formatter.match({
@@ -303,14 +303,14 @@ formatter.match({
   "location": "SearchEngine.the_should_not_be_mentioned_in_the_results(String)"
 });
 formatter.result({
-  "duration": 197208300,
+  "duration": 135242400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchEngine.close_browsers()"
 });
 formatter.result({
-  "duration": 1845476400,
+  "duration": 1372423700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -438,7 +438,7 @@ formatter.match({
   "location": "SearchEngine.that_i_have_gone_to_something_page_with_chrome_browser(String)"
 });
 formatter.result({
-  "duration": 8282583200,
+  "duration": 7530952300,
   "status": "passed"
 });
 formatter.match({
@@ -451,7 +451,7 @@ formatter.match({
   "location": "SearchEngine.i_fill_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 444504800,
+  "duration": 147612500,
   "status": "passed"
 });
 formatter.match({
@@ -464,7 +464,7 @@ formatter.match({
   "location": "SearchEngine.click_on_suggest_word(String)"
 });
 formatter.result({
-  "duration": 8068192200,
+  "duration": 7063531500,
   "status": "passed"
 });
 formatter.match({
@@ -477,7 +477,7 @@ formatter.match({
   "location": "SearchEngine.the_should_be_mentioned_in_the_results(String)"
 });
 formatter.result({
-  "duration": 1127299400,
+  "duration": 890913700,
   "status": "passed"
 });
 formatter.match({
@@ -490,14 +490,14 @@ formatter.match({
   "location": "SearchEngine.click_the_link(String)"
 });
 formatter.result({
-  "duration": 376494500,
+  "duration": 2099378900,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchEngine.close_browsers()"
 });
 formatter.result({
-  "duration": 1942700600,
+  "duration": 1623200600,
   "status": "passed"
 });
 });
