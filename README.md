@@ -4,6 +4,11 @@ Cucumber Google Search using Selenium and Rest Assured
 [![LinkedIn](linkedin-shield)](https://www.linkedin.com/in/ibrahim-nasr-001b60202/)
 
 ## How to run project:
+- Go to data.properties then enter your api_key and cookie 
+|-- src
+|   |-- main / java
+|   |   |-- resources
+|   |   |   |-- data.properties
 - Run testngCucumber.xml file
 
 ## Feature File  
@@ -35,6 +40,7 @@ https://cse.google.com/cse/all
 | cucumber-java |1.2.5 |
 |cucumber-jvm-deps|1.0.5|
 |gherkin|2.12.2|
+
 ## Asseration : Verifying first result from api request in titles to  selenium-ui 
 - Create request and get parameter from property file [ api_key  - q(query) - cx(Unique for custom-engine ) - number(Number of results) - HOST( endpoint of google api custom engine ) - Cookie (Cookie cahced from google account) ]
 - Make a request and  send query parameter and header (must) and add resource endpoint - "/customsearch/v1" 
