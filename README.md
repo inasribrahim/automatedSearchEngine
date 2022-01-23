@@ -122,7 +122,7 @@ https://cse.google.com/cse/all
 - Extract Url using split build-in method
 example search for vidscola and seen the url( https://www.google.com/search?q=vidscola&sxsrf=AOaemvJBAlGjJsvXgnvd8Wm8Jwe_ClILOw%3A1642844773079&ei=ZdLrYbSpBMnKgweHvpX4DA&gs_ssp=eJzj4tVP1zc0TDe0NLHMKjA1YLRSNagwNDG1MDFMNLUwSzFOSbVIsjKoME0EKkhKTko1SzFJSzMy8OIoy0wpTs7PSQQAJIwSRg&oq=vid&gs_lcp=Cgdnd3Mtd2l6EAMYADIKCC4QxwEQrwEQJzIECCMQJzIECCMQJzIICAAQsQMQkQIyBQgAEJECMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIFCAAQgAQ6BAgAEEc6DgguEIAEELEDEMcBEKMCOggILhCABBCxAzoLCC4QsQMQxwEQ0QM6CwguELEDEMcBEK8BOgUIABCxA0oECEEYAEoECEYYAFCExQdYy8gHYKjQB2gAcAZ4AIABrQGIAf4DkgEDMC4zmAEAoAEByAEIwAEB&sclient=gws-wiz)
 - I split using (q) and get second index value and split again using (&) and get first index array and replace all + to blank to remove  + from link if the link related to arabic search  
-- Check item enterd in saerch box field realted to description and if not realted change the flag to false 
+- Get attribute value from search box  
 - Assert the result from item entered into search box to extracted value from url 
 ```JAVA
 	public void validateUrl() throws IOException
