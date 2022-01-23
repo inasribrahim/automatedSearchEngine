@@ -1,0 +1,28 @@
+CucumberE2E/
+|-- src
+|   |-- main / java
+|   |   |-- pageObjects
+|   |   |   |-- LandingPage.java
+|   |   |   |-- SearchEnginePage.java
+|   |   |-- resources
+|   |   |   |-- base.java
+|   |   |   |-- RawData.java
+|   |   |   |-- resources.java
+|   |   |   |-- data.properties
+|   |-- test/ java
+|   |   |-- cucumberOptions
+|   |   |   |-- TestRunner.java
+|   |   |-- engine
+|   |   |   |-- CreateRequest.java
+|   |   |   |-- E2ESenario.java
+|   |   |   |-- SearchEPage.java
+|   |   |   |-- ValidateSearchEngineAPIToUI.java
+|   |   |   |-- ValidateSearchSummary.java
+|   |   |   |-- ValidateWoesInUrl.java
+|   |   |-- feature
+|   |   |   |-- SearchEngine.feature
+|   |   |-- stepDefinations
+|   |   |   |-- SearchEngine.java
+`-- target
+    |-- cucmber-html-report
+|-- pom.xml
