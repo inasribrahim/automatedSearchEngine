@@ -12,14 +12,9 @@
                 // Get some code from a GitHub repository
                 git 'https://github.com/inasribrahim/automatedSearchEngine.git'
 
-                // Run Maven on a Unix agent.
-                if(isUnix()){
-                sh "mvn test -PtestngCucumber.xml"
-                }
-                else
-                {
-                    bat("mvn test -PtestngCucumber.xml")
-                }
+                // Run Maven 
+                bat("mvn test -PtestngCucumber.xml")
+                
         
             }
             post {
