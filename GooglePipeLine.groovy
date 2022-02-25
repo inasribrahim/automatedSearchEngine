@@ -14,11 +14,11 @@
 
                 // Run Maven on a Unix agent.
                 if(isUnix()){
-                sh "mvn -PtestngCucumber.xml"
+                sh "mvn test -PtestngCucumber.xml"
                 }
                 else
                 {
-                    bat("mvn -PtestngCucumber.xml")
+                    bat("mvn test -PtestngCucumber.xml")
                 }
         
             }
