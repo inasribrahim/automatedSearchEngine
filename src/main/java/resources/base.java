@@ -47,7 +47,8 @@ public class base extends AbstractTestNGCucumberTests {
 		          options.addArguments("--disable-gpu"); // Disable GPU acceleration
 		          options.addArguments("--no-sandbox"); // Disable sandbox for Alpine
 		            options.addArguments("--disable-dev-shm-usage"); // Disable /dev/shm usage
-            
+            			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+
 			driver  = new ChromeDriver(options);
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
