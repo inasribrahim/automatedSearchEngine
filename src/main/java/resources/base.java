@@ -14,8 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
@@ -42,18 +41,15 @@ public class base extends AbstractTestNGCucumberTests {
 		System.out.println(browserName);
 
 		if (browserName.equals("chrome")) {
-			WebDriverManager.chromedriver().setup();
-			driver  = new ChromeDriver();
-
-		} else if (browserName.equals("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-			
-		} else if (browserName.equals("IE")) {
-			WebDriverManager.iedriver().setup();
-			driver = new InternetExplorerDriver();
+			 WebDriverManager.chromiumdriver().browserInDocker().setup();
+			  ChromeOptions options = new ChromeOptions();
+		          options.addArguments("--headless"); // Set headless mode
+		          options.addArguments("--disable-gpu"); // Disable GPU acceleration
+		          options.addArguments("--no-sandbox"); // Disable sandbox for Alpine
+		            options.addArguments("--disable-dev-shm-usage"); // Disable /dev/shm usage
+            
+			driver  = new ChromeDriver(options);
 		}
-		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		return driver;
